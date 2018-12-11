@@ -1,0 +1,22 @@
+/*
+ * conf_history.h
+ *
+ * Created: 2014/3/19 9:40:14
+ *  Author: Airj
+ */ 
+
+
+#ifndef CONF_HISTORY_H_
+#define CONF_HISTORY_H_
+
+
+#define HISTORY_EEPROM_SIZE 0x40
+#define HISTORY_EEPROM_MASK ((0x40<<1)-1)
+#define HISTORY_EEPROM_ADDRESS_BASE 0
+#define HISTORY_EEPROM_WRITE_INDEX_ADDRESS 0x200
+#define HISTORY_EEPROM_READ_INDEX_ADDRESS 0x201
+
+#define HISTORY_EEPROM_RTC_ADDRESS 0x204
+
+
+#endif /* CONF_HISTORY_H_ */
